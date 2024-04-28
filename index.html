@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Inc.</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc;
+        }
+        header {
+            background-color: #ffe4b5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #ffdead;
+            padding: 10px;
+        }
+        nav a {
+            color: #8b4513;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #ffb97b;
+        }
+        main {
+            padding: 20px;
+        }
+        .product-form {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #ffdead;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Banana Inc.</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <h2 id="products">Products</h2>
+    <p>Banana Inc. offers a wide range of high-quality products. Here are some of our best-sellers:</p>
+
+    <h3>Banana Slicer</h3>
+    <img src="https://i.postimg.cc/y8W3NnQZ/banana-slicer.webp" alt="Banana Slicer" width="200">
+    <p>Our banana slicer is a must-have for any kitchen. It quickly and safely slices bananas into perfect slices. Made with high-quality, durable plastic, this slicer is dishwasher safe and easy to clean.</p>
+    <form class="product-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+        <button type="submit">Add to Cart</button>
+    </form>
+
+    <h3>Banana Holder</h3>
+    <img src="https://i.postimg.cc/y8W3NnQZ/banana-slicer.webp" alt="Banana Holder" width="200">
+    <p>Keep your bananas fresh and accessible with our banana holder. Designed to fit standard bunches of bananas, this holder helps prevent bruising and keeps bananas at room temperature. Made with eco-friendly bamboo, this holder is both stylish and sustainable.</p>
+    <form class="product-form">
+        <label for="name-2">Name:</label>
+        <input type="text" id="name-2" name="name-2" required>
+        <label for="email-2">Email:</label>
+        <input type="email" id="email-2" name="email-2" required>
+        <label for="quantity-2">Quantity:</label>
+        <input type="number" id="quantity-2" name="quantity-2" min="1" max="10" required>
+        <button type="submit">Add to Cart</button>
+    </form>
+</main
